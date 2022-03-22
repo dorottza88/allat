@@ -1,0 +1,4 @@
+- a footert es a menut nem lehet js-en keresytul hoyyacsatolni
+-a kepek nem eleg nagyok ay allatoknal problemazik a nagysagukkal
+-irni a wamprol
+-weboldal t0rtenete **

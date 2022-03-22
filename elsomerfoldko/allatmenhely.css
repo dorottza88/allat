@@ -1,0 +1,31 @@
+body{
+    background-color: lavender !important;
+    margin: 0px 20px;
+
+}
+h1{
+    position: relative;
+    top: -10px ;
+    left: -30px;
+    color: rgb(28, 36, 53);
+    padding: 15px 30px;
+    background-color: white;
+    width:400px;
+    border-radius: 35px;
+    margin-bottom: -75px;
+    font-family: Georgia;
+
+}
+p{
+    font-family:"Lucida Console";
+    text-indent: 0px;
+    text-align-last: left;
+    direction: ltr;
+    line-height: 1.5;
+
+}
+img {
+    border-radius: 8px;
+    max-width: 20%;
+    height: auto;
+}
