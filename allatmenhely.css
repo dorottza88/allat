@@ -26,10 +26,13 @@ p{
     font-size: 20px;
 
 }
+
 img {
     border-radius: 8px;
     max-width: 20%;
     height: auto;
+    /*margin-left: 680px;
+    margin-top: auto;*/
 }
 .text-box{
     width: 90%;
@@ -45,6 +48,21 @@ img {
 .text-box{
     font-size: 20px;
 }
+}
+
+.btn:link, .btn:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover, .btn:active{
+    background-color: green;
+    color: white;
 }
 
 /*allatok*/
@@ -81,7 +99,7 @@ div.desc {
     padding:0
 }
 .footer h4{
-    margin-bottom: 25px;
-    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-top: 30px;
     font-weight: 500;
 }

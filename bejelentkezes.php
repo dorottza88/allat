@@ -9,13 +9,13 @@
 <body>
 <h1>Bejelentkezés</h1><br>
 
-<form>
+<form action="bejelentkezes2.php" method="post">
     <div class =container>
     <label for="uName">Felhasználóneve:</label>
-    <input type="text"  placeholder="Enter Username" name="uNname" id="uName">
+    <input type="text"  placeholder="Enter Username" name="uName" id="uName">
     <br> </
     <label for="password" >Jelszó</label>
-    <input type="password" placeholder="Enter Password" name="passwrord" id="password">
+    <input type="password" placeholder="Enter Password" name="password" id="password">
 
     <br><button type="submit" class="registerbtn">Bejelentkezes</button>
     <button type="reset" class="registerbtn">Visszaállítás</button>
@@ -24,30 +24,7 @@
 </form>
 
 
-<?php
 
-
-session_start();
-if(isset($_POST['save']))
-{
-    extract($_POST);
-    include ('kapcsolat.php');
-    $sql=mysqli_query($conn,"SELECT * FROM users where uName='$uName'AND password='$password'");
-    $row  = mysqli_fetch_array($sql);
-    if(is_array($row))
-    {
-        $_SESSION["uName"] = $row['uName'];
-        $_SESSION["password"]=$row['password'];
-        echo "valid Username/Password";
-        header("Location: allatmenhely.php");
-    }
-    else
-    {
-        echo "Invalid Username/Password";
-    }
-}
-
-?>
 
 </body>
 </html>

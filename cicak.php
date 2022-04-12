@@ -33,6 +33,10 @@
     </style>
 </head>
 <body>
+<?php
+include("navbar.php");
+
+?>
 <h2 class="h1">Gazdira váró cicák az állatmenhelyünkön:</h2>
 <div class="gallery">
     <a target="_blank" href="kepek%20es%20adatok/bajusz.jpg">
@@ -86,6 +90,9 @@
     </a>
     <div class="desc">Mufurc</div>
 </div>
-
+<br><br><br><br>
+<?php
+include("footer.php");
+?>
 </body>
 </html>

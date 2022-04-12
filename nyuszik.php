@@ -31,7 +31,10 @@
     </style>
 </head>
 <body>
+<?php
+include("navbar.php");
 
+?>
 <h2 class="h1">Gazdira váró nyulak az állatmenhelyünkön:</h2>
 <div class="gallery">
     <a target="_blank" href="kepek%20es%20adatok/gombóc.jpg">
@@ -61,5 +64,8 @@
 </div>
 
 <br><br> <br><br>
+<?php
+include("footer.php");
+?>
 </body>
 </html>

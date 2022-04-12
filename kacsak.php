@@ -32,6 +32,10 @@
 </style>
 </head>
 <body>
+<?php
+include("navbar.php");
+
+?>
 <h2 class="h1">Gazdira váró kacsák az állatmenhelyünkön:</h2>
 <div class="gallery">
     <a target="_blank" href="kepek%20es%20adatok/hápi.jpg">
@@ -45,7 +49,10 @@
     </a>
     <div class="desc">Herold</div>
 </div>
-
+<br>
+<?php
+include("footer.php");
+?>
 
 
 </body>

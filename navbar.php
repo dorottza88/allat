@@ -36,19 +36,19 @@
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
     <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="rolam.html">Rólam</a>
+            <a class="nav-link" href="rolam.php">Rólam</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="kontakt.html">Kontakt</a>
+            <a class="nav-link" href="kontakt.php">Kontakt</a>
         </li>
         <li class="nav-item">
-            <a class="navigation" href="all.regiszt.html" target="_blank">Regisztráció</a>
+            <a class="navigation" href="all_regiszt.php" target="_blank">Regisztráció</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="bejelentkezes.html" target="_blank">Bejelentkezés</a>
+            <a class="nav-link" href="bejelentkezes.php" target="_blank">Bejelentkezés</a>
         </li>
     </ul>
 </nav>

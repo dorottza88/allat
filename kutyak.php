@@ -31,7 +31,10 @@
     </style>
 </head>
 <body>
+<?php
+include("navbar.php");
 
+?>
 <h2 class="h1">Gazdira váró kutyusok az állatmenhelyünkön:</h2>
 <div class="gallery">
     <a target="_blank" href="kepek%20es%20adatok/bence.jpg">
@@ -39,13 +42,16 @@
     </a>
     <div class="desc">Bence</div>
 </div>
-
+<form action="kulonoldalak.php" method="get">
 <div class="gallery">
+    <input type="submit">
     <a target="_blank" href="kepek%20es%20adatok/bolyhos.jpg">
         <img src="kepek%20es%20adatok/bolyhos.jpg" alt="Bolyhos" width="600" height="400">
     </a>
     <div class="desc">Bolyhos</div>
-</div>
+</input>
+    <input value="2" name="petid" hidden>
+</div></form>
 
 <div class="gallery">
     <a target="_blank" href="kepek%20es%20adatok/Buksi.jpg">
@@ -114,5 +120,8 @@
     <div class="desc">Szimat</div>
 </div>
 <br><br> <br><br>
+<?php
+include("footer.php");
+?>
 </body>
 </html>

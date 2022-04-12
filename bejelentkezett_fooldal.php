@@ -18,30 +18,29 @@
 include("navbar.php");
 
 ?>
+<h1 class="h1">Mancs állatmenhely</h1><br><br><br>
 
-    <h1 class="h1">Mancs állatmenhely</h1><br><br><br>
-
-
-<dl>
 <h2>Üdvözöljük oldalunkon! Ha ön is egy szerető kis állatra vágyik akivel megoszthatja mindennapjait és boldoggá teheti,
     akkor ez az oldal magának lett készítve. Reméljük sikeres lesz keresgetése, és talál egy szimpatikus kisállatot :)</h2>
 
 <h3>Milyen állatot szeretne megtekinteni?</h3>
 
-    <a class="btn" href="kutyak.php" >Kutyák</a>
-    <br><br>
-    <a class="btn" href="cicak.php">Cicák</a>
-    <br><br>
-    <a class="btn" href="nyuszik.php">Nyuszik</a>
-    <br><br>
-    <a class="btn" href="kacsak.php">Kacsák</a>
+<a href="kutyak.php" >Kutyák</a>
+<br>
+<a href="cicak.php">Cicak</a>
+<br>
+<a href="nyuszik.php">Nyuszik</a>
+<br>
+<a href="kacsak.php">Kacsák</a>
+<br>
+<a href="kijelentkezes.php">Kijelentkezés</a>
 
 
 
+<?php
 
-    <?php
-    include("footer.php");
-    ?>
+include("footer.php");
+?>
 
 </body>
 </html>
